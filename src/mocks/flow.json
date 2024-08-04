@@ -1,0 +1,49 @@
+{
+  "flow": {
+    "name": "Fluxo de atendimento ao cliente",
+    "initWord": "clinicasantte",
+    "steps": [
+      {
+        "id": "8dcbbd8e-8601-4aa1-b598-da983cd10d03",
+        "stepType": "content",
+        "actions": [
+          {
+            "id": "a53fc879-7262-49da-95b8-0d7745448c34",
+            "type": "typing"
+          },
+          {
+            "id": "65955f5a-c846-4f15-a274-5f096d5e35a6",
+            "type": "text",
+            "content": "Olá eu sou a Sofia! Bem-vindo à clínica Vidacci 😊"
+          },
+          {
+            "id": "5ecbb8e4-055b-4f4a-b7e4-a8e4929290fc",
+            "type": "list",
+            "title": "Agora você pode agendar, confirmar e cancelar suas próprias consultas sem falar com nossos atendentes!\n\nSe você deseja agendar um horário conosco sem precisar ficar perguntando horários, clique em:🆕 Realizar um agendamento\n\nJá se você precisa confirmar ou cancelar algum agendamento, basta clicar em:📅 Ver meus agendamentos\n\n⬇️ CLIQUE NO BOTÃO ABAIXO PARA VER AS OPÇÕES DISPONÍVEIS",
+            "subtitle": "",
+            "description": "",
+            "data": [
+              {
+                "title": "Opções para selecionar",
+                "rows": [
+                  {
+                    "title": "🆕 Realizar um agendamento",
+                    "description": ""
+                  },
+                  {
+                    "title": "🩺 Agendar um exame",
+                    "description": ""
+                  },
+                  {
+                    "title": "📅 Ver meus agendamentos",
+                    "description": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
